@@ -8,7 +8,8 @@
 <title>Guru current Date</title>
 </head>
 <body>
-Change 2
+Change 3 (with error)
 Today's date: <%= (new java.util.Date()).toLocaleString()%>
+Today's time: <%= (new java.util.Time()).toLocaleString()%
 </body>
 </html>
